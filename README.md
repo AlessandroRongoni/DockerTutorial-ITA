@@ -1,31 +1,33 @@
 # DockerTutorial-ITA
-## Guida Completa: Come Usare Docker
+# 🐳 Guida Completa: Come Usare Docker
+
+![Docker Banner](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)
 
 Questa guida ti accompagnerà passo dopo passo nell'utilizzo di Docker, dalla sua installazione alla creazione di immagini, container e molto altro.
 
 ---
 
-## Indice
+## 📚 Indice
 
 1. [Cos'è Docker?](#cos-e-docker)
 2. [Prerequisiti](#prerequisiti)
-3. [Installazione di Docker](#installazione-di-docker)
-4. [Comandi Base di Docker](#comandi-base-di-docker)
-5. [Creazione di un'immagine Docker](#creazione-di-unimmagine-docker)
-6. [Gestione dei Container](#gestione-dei-container)
-7. [Docker Compose](#docker-compose)
-8. [Esempio Completo: Applicazione Web](#esempio-completo-applicazione-web)
-9. [Risorse Utili](#risorse-utili)
+3. [🔧 Installazione di Docker](#installazione-di-docker)
+4. [📜 Comandi Base di Docker](#comandi-base-di-docker)
+5. [🛠️ Creazione di un'immagine Docker](#creazione-di-unimmagine-docker)
+6. [📦 Gestione dei Container](#gestione-dei-container)
+7. [📋 Docker Compose](#docker-compose)
+8. [🌐 Esempio Completo: Applicazione Web](#esempio-completo-applicazione-web)
+9. [🔗 Risorse Utili](#risorse-utili)
 
 ---
 
-## Cos'è Docker?
+## 🐋 Cos'è Docker?
 
 Docker è una piattaforma che consente di creare, distribuire e gestire applicazioni in container. I container sono ambienti isolati che includono tutto ciò che un'applicazione necessita per funzionare, indipendentemente dal sistema operativo sottostante.
 
 ---
 
-## Prerequisiti
+## ⚙️ Prerequisiti
 
 Prima di iniziare, assicurati di avere:
 
@@ -35,7 +37,7 @@ Prima di iniziare, assicurati di avere:
 
 ---
 
-## Installazione di Docker
+## 🔧 Installazione di Docker
 
 ### Su Windows e macOS
 1. Scarica Docker Desktop dal [sito ufficiale](https://www.docker.com/products/docker-desktop/).
@@ -69,7 +71,7 @@ Prima di iniziare, assicurati di avere:
 
 ---
 
-## Comandi Base di Docker
+## 📜 Comandi Base di Docker
 
 ### Verifica che Docker funzioni correttamente:
 ```bash
@@ -113,7 +115,7 @@ docker rmi nome_immagine
 
 ---
 
-## Creazione di un'immagine Docker
+## 🛠️ Creazione di un'immagine Docker
 
 1. Crea un file chiamato `Dockerfile` nella directory del tuo progetto.
 2. Esempio di un semplice `Dockerfile` per un'app Node.js:
@@ -146,7 +148,7 @@ docker rmi nome_immagine
 
 ---
 
-## Gestione dei Container
+## 📦 Gestione dei Container
 
 - **Avvia un container fermo:**
   ```bash
@@ -165,7 +167,7 @@ docker rmi nome_immagine
 
 ---
 
-## Docker Compose
+## 📋 Docker Compose
 
 Docker Compose consente di definire e gestire applicazioni multi-container utilizzando un file YAML.
 
@@ -207,7 +209,7 @@ services:
 
 ---
 
-## Esempio Completo: Applicazione Web
+## 🌐 Esempio Completo: Applicazione Web
 
 Creiamo un'applicazione Node.js con Docker Compose.
 
@@ -240,7 +242,7 @@ Creiamo un'applicazione Node.js con Docker Compose.
 
 ---
 
-## Risorse Utili
+## 🔗 Risorse Utili
 
 - [Documentazione ufficiale di Docker](https://docs.docker.com/)
 - [Tutorial su Docker Compose](https://docs.docker.com/compose/)

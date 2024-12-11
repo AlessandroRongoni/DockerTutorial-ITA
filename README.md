@@ -1,7 +1,7 @@
 # DockerTutorial-ITA
 # 🐳 Guida Completa: Come Usare Docker
 
-![Docker Banner](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)
+![Docker Banner](doker_banner.png)
 
 Questa guida ti accompagnerà passo dopo passo nell'utilizzo di Docker, dalla sua installazione alla creazione di immagini, container e molto altro.
 
